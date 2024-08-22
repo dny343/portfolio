@@ -514,10 +514,14 @@ margin-bottom: 1%;
     background-position-x: 50%;
     padding-bottom: 30px;
   }
+  .about>.title{
+    padding: 10px;
+    color: white;
+  }
   
  .about p{
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
     font-weight: 400;
  }
   
