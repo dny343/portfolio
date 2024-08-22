@@ -2,6 +2,7 @@
 *{
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
+  max-width: 100%;
 }
 
 body{
@@ -525,7 +526,7 @@ margin-bottom: 10%;
       text-align: center;
       display: inline-flex;
       height: max-content;
-      width: 100%;
+      max-width: 100%;
   }
   
   .tab-btn {
