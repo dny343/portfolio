@@ -87,13 +87,13 @@ grid-template-columns: 1fr 1fr 1fr;
 
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color:  #1F1F1F;
-  width:50px;
+  width:40px;
   height: 3px;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
   background-color: transparent !important;
-  height: 50px;
+  height: 40px;
 }
 
 .button-black{
