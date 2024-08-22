@@ -183,7 +183,7 @@ padding: 10px 10px 10px 10px;
 
 
 .profile-pic{
-  background-image: url(../assets/Image.png);
+  background-image: url(../assets/Image.webp);
   background-repeat: no-repeat;
   background-size: contain;
   width: 43%;
@@ -300,13 +300,12 @@ padding: 10px 10px 10px 10px;
 }
 
 .techtools{
- 
   justify-content: space-between;
   gap:3px;
 }
 .techtools img{
   max-width:35px;
-  height: auto;
+  max-height:35px;
 }
 
 .portfolio{
