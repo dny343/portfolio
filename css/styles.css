@@ -80,7 +80,7 @@ grid-template-columns: 1fr 1fr 1fr;
 .logo img{
   
   max-width: 150px;
-  max-height: 150px;
+  height: auto;
 }
 
 .navbar-nav>li>a{
@@ -190,7 +190,8 @@ padding: 10px 10px 10px 10px;
 }
 
 .profile-pic img{
-  width: -webkit-fill-available;
+  width: 100%;
+  height: auto;
 }
 .buttons{
   display: flex;
@@ -287,8 +288,8 @@ padding: 10px 10px 10px 10px;
 }
 
 .services-container>div>img{
-  width:54px;
-  height: 54px;
+  width:50px;
+  height: auto;
 }
 .services-container p{
   font-size: 14px;
@@ -305,7 +306,7 @@ padding: 10px 10px 10px 10px;
 }
 .techtools img{
   max-width:35px;
-  max-height:35px;
+  max-height:auto;
 }
 
 .portfolio{
@@ -325,8 +326,8 @@ padding: 10px 10px 10px 10px;
 }
 
 .portfolio-container img{
-  min-width: 100px;
   max-width:100%;
+  height: auto;
 }
 .portfolios p{
   font-size: 14px;
@@ -463,7 +464,7 @@ footer a{
   .logo img{
   
     max-width: 120px;
-    max-height: 120px;
+    height: auto;
     padding: 0px;
   }
   .logo{
@@ -486,6 +487,7 @@ footer a{
   padding-inline-start: 5%;
   padding-inline-end: 5%;
     width:100%;
+    height: auto;
   }
 
   .info p{
@@ -634,8 +636,8 @@ margin-bottom: 1%;
     font-weight: bold;
   }
   .portfolio-container img{
-    min-width: 100px;
-    max-width:100%;
+     max-width:100%;
+     height: auto;
   }
 
 }
