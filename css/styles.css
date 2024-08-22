@@ -520,17 +520,11 @@ margin-bottom: 10%;
   }
   .tabs {
     overflow: hidden;
-      align-items: center;
-      align-content: center;
-      align-self: center;
-      text-align: center;
-      display: inline-flex;
-      height: max-content;
-      max-width: 100%;
+    display: inline-flex;
+     max-width: 100%;
   }
   
   .tab-btn {
-    
     padding: 5px 5px;
     background: #1F1F1F;
     color: #fff;
@@ -559,7 +553,7 @@ margin-bottom: 10%;
     float:left; 
     display:inline; 
     width: 49%;
-    padding: 2%;
+    padding-inline: 2%;
     margin-top: 0;
   }
 
