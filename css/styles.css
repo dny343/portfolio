@@ -571,7 +571,8 @@ margin-bottom: 1%;
     
   }
   .tabs {
-    overflow: hidden;
+    overflow: auto;
+    scroll-behavior: auto;
     display: inline-flex;
      max-width: 100%;
   }
