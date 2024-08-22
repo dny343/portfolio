@@ -60,11 +60,18 @@ grid-template-columns: 1fr 1fr 1fr;
 
 }
 
-.navbar-inverse{
+.navbar-inverse {
   background-color: transparent !important;
   padding-top: 40px;
   border: none;
+  overflow: hidden;
   
+}
+
+.navbar-collapse {
+  overflow: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 .logo{
@@ -96,24 +103,28 @@ grid-template-columns: 1fr 1fr 1fr;
   height: 40px;
 }
 
-.button-black{
+.button-black,.button-black a{
   background-color: #1F1F1F;
   color: white;
   font-size: 1.4rem;
-  padding: 10px 10px 10px 10px;
+  font-weight: 600;
+text-align: center;  
+padding: 10px 10px 10px 10px;
   border-radius:15px;
   margin: 5px;
-  height: 50px;
+  height: 40px;
 }
 
-.button-white{
+.button-white,.button-white a{
   background-color: white;
   color: #1F1F1F;
   font-size: 1.4rem;
+  font-weight: 600;
   padding: 10px 10px 10px 10px;
+  text-align: center; 
   border-radius:15px;
   margin: 5px;
-  height:50px;
+  height:40px;
 }
 
 
@@ -447,6 +458,7 @@ footer a{
       background-image: none;
       border: 1px solid transparent;
       border-radius: 4px;
+      overflow: hidden;
   }
 
   .logo img{
@@ -459,8 +471,8 @@ footer a{
     padding-inline: 0px;
   }
 
-  #myNavbar>.button-black{
-    font-size: 16px;
+  #myNavbar>.button-black a{
+    font-size: 1.4rem;
     width:90%;
     padding: 1px !important;
     height: 33px;
